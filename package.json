@@ -1,0 +1,77 @@
+{
+  "name": "earummaiores",
+  "version": "1.0.0",
+  "workspaces": {
+    "packages": [
+      "./packages/*"
+    ],
+    "nohoist": [
+      "**/react",
+      "**/react-dom",
+      "**/csstype"
+    ]
+  },
+  "description": "Web3-Onboard makes it simple to connect Ethereum hardware and software wallets to your dapp. Features standardised spec compliant web3 providers for all supported wallets, framework agnostic modern javascript UI with code splitting, CSS customization, multi-chain and multi-account support, reactive wallet state subscriptions and real-time transaction state change notifications.",
+  "keywords": [
+    "quisquam",
+    "rerum",
+    "EVM",
+    "cupiditate",
+    "illum",
+    "Wallet",
+    "Transaction",
+    "quibusdam",
+    "Hardware Wallet",
+    "Notifications",
+    "maiores",
+    "quam",
+    "Vue",
+    "Next",
+    "qui",
+    "non",
+    "enim",
+    "WalletConnect",
+    "Ledger",
+    "Trezor",
+    "est",
+    "aut",
+    "Blocknative",
+    "Mempool",
+    "pending",
+    "confirmed",
+    "inventore",
+    "GameStop",
+    "ea",
+    "necessitatibus",
+    "ut"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JensenBotsford/earummaiores.git"
+  },
+  "homepage": "https://github.com/JensenBotsford/earummaiores.git",
+  "scripts": {
+    "install-m1-mac": "yarn install --ignore-optional",
+    "format": "prettier --write 'packages/**/*.ts'",
+    "dev": "yarn wsrun dev",
+    "build": "yarn wsrun --serial build",
+    "check": "yarn wsrun type-check"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1",
+    "prettier-plugin-svelte": "^2.4.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "wsrun": "^5.2.4"
+  },
+  "resolutions": {
+    "minimist": "^1.2.6",
+    "axios": "^0.21.2",
+    "async": "^2.6.4",
+    "follow-redirects": "1.14.9",
+    "ansi-regex": "^4.1.1",
+    "got": "^11.8.5"
+  },
+  "author": "ReidTurner"
+}
